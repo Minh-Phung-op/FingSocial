@@ -1,0 +1,18 @@
+branch: phuong
+
+git branch phuong
+git checkout phuong
+//code
+git add .
+git commit -m "message"
+git push origin phuong
+
+//merge
+git checkout main
+git pull origin Phuong
+-----conflict 
+git add .
+git commit -m "conflict..."
+git push origin main
+
+git checkout Phuong ...

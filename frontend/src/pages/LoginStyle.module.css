@@ -1,0 +1,78 @@
+
+.container{
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    font-size: 25px;
+}
+.container h1{
+    color: #2C83F2;
+}
+.container p{
+    font-weight: 100;
+}
+.header{
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 20%;
+    left:57%;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+}
+
+.box input{
+    width: 87%;
+    margin: 10px;
+    padding: 13px 18px;
+    margin-top: 18px;
+    margin-left: 21px;
+    border-radius: 6px;
+}
+.link{
+    width: 87%;
+    text-align: center;
+    background-color: #006eff;
+    margin-top: 15px;
+    margin-left: 23px;
+    padding: 11px;
+    border-radius: 8px;
+    color: white;
+}
+
+.link:hover{
+    background-color: #529dff;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.link1{
+    text-align: center;
+    margin-top: 12px;
+}
+.link1 a{
+    text-decoration: none;
+    color: #2C83F2;
+    font-size: 15px;
+}
+.link2{
+    text-align: center;
+    margin-top: 40px;
+    width: 87%;
+    margin: 7%;
+    background-color: #1eae01;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.link2:hover{
+    background-color: #6ec15e;
+}
+.link2 a{
+    text-decoration: none;
+    color: white;
+}

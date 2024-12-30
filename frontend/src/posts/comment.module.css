@@ -1,0 +1,120 @@
+.hiddenTogleModal{
+    position:  fixed ;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(244, 240, 240, 0.08);
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    z-index: 1000;
+}
+.commentModalContainer{
+    /* background-color:  rgb(246, 243, 243) ; */
+    background-color: white;
+    margin: 10px 0 0 0;
+    padding:  20px ;
+    border-radius:  5px ;
+    width:  50% ;
+    height:  650px ;
+    overflow:  auto ;
+    box-shadow:  0 0px 1px rgba(0, 0, 0, 0.1) ;
+}
+.commentModalContainer h3{
+    text-align: center;
+}
+.commentModalComponents{
+    /* max-height: 500px;  */
+    overflow-y: auto;
+}
+.commentElement{
+    margin: 10px 15px 10px 0; 
+    padding: 10px; 
+    border-bottom: 1px solid #ddd;
+    border-radius: 0.4rem;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+
+}
+.commentContent{
+    display: flex; 
+    justify-content: space-between
+}
+.commentContent p{
+    font-size: 14px;
+    padding: 0 0 0 0;
+    align-items: center;
+    display: flex;
+    
+}
+.imgAvatarComment{
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 50% !important;
+    margin:0 10px 0 10px !important;
+}   
+.commentAction{
+    margin-top:5px
+}
+.commentEditBtn{
+    padding: 8px;
+    border-radius: 50%;
+    margin: 0 7px 0 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.commentEditBtn:hover{
+    background-color: #e3e3dc;
+}
+.commentEditBtn i{
+    color: rgb(167, 167, 20);
+}
+.commentDeleteBtn{
+    padding: 8px;
+    border-radius: 0.4rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.commentDeleteBtn:hover{
+    background-color: rgb(227, 218, 218);
+}
+.commentDeleteBtn i{
+    color: brown;
+}
+.closeCommentModelBtn{
+    position:absolute;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    top:50px;
+    right:400px;
+    border-radius:50%;
+}
+.closeCommentModelBtn i{
+    color: black; 
+    font-size: 18px;
+}
+.commentTextContent{
+    width: 100%;
+    height: auto;
+    margin: 10px 0 0 0;
+    padding: 0 0 6px 10px;
+}
+.commentTextContent p{
+    font-weight: 500;
+    width: 100%;
+}
+.mainCommentContent{
+    width: 80%;
+}
+.commentTimeAgo{
+    font-size: 11px;
+    padding: 9px 0 0 10px;
+    margin: 0 0 0 -10px;
+}
